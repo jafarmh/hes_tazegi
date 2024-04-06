@@ -6,7 +6,7 @@ export const Layout = ({ children }: ChildrenProps) => {
     return (
         <main className='w-full md:w-[80%] md:mx-auto' dir='ltr'>
             <Header />
-            <div>
+            <div className='mt-[57px]'>
 
                 {children}
             </div>

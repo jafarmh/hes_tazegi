@@ -8,7 +8,7 @@ export const RightLink = () => {
     return (
         <>
             <div className='flex flex-row gap-x-[34px] text-[--gray]'>
-                <div className='bg-[--grayLight] rounded-[12px] px-[14px] py-[16px] flex flex-row flex-grow gap-x-2 items-center w-[399px]'>
+                <div className='bg-[--grayLight] rounded-[--radius] px-[14px] py-[16px] flex flex-row flex-grow gap-x-2 items-center w-[399px]'>
                     <div>
                         <img src={more.src} alt="more" />
                     </div>
