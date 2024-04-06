@@ -19,3 +19,12 @@ export interface CartImgUserProps{
     name:string,
     date:string
 }
+
+export interface IconTxtProps{
+    icon:string,
+    txt:string
+}
+export interface TitleDetailProps{
+    title:string,
+    detail:string
+}

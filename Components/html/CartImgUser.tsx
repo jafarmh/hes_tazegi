@@ -1,10 +1,14 @@
+'use client';
+
 import { CartImgUserProps } from '@/interface/Element'
 import React from 'react'
 import Save from '@/asset/icon/save.svg'
+import { useRouter } from 'next/navigation';
 
 export default function CartImgUser({ img, title, description, avatar, name, date }: CartImgUserProps) {
+    const router=useRouter(); 
     return (
-        <div className='shadow-[0px_0px_32px_0px_#00000012] p-[10px] rounded-[--radius] flex flex-col gap-2 bg-white w-[340px]'>
+        <div onClick={()=>router.push("/detail")} className='shadow-[0px_0px_32px_0px_#00000012] p-[10px] rounded-[--radius] flex flex-col gap-2 bg-white w-[340px] cursor-pointer'>
             <img src={img} alt="Support" className='rounded-[--radius]' />
             <h5 className='text-[--gray] font-[500] text-[16px]'>
                 {title.substring(0,40)} 
