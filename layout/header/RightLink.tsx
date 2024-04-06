@@ -1,3 +1,4 @@
+import ButtonSave from '@/Components/html/ButtonSave'
 import React from 'react'
 import avatar from '@/asset/img/avatar.png'
 import down from '@/asset/icon/down.svg'
@@ -7,7 +8,7 @@ import search from '@/asset/icon/search.svg'
 export const RightLink = () => {
     return (
         <>
-            <div className='flex flex-row gap-x-[34px] text-[--gray]'>
+            <div className='flex flex-row gap-x-[34px] text-[--gray]  items-center'>
                 <div className='bg-[--grayLight] rounded-[--radius] px-[14px] py-[16px] flex flex-row flex-grow gap-x-2 items-center w-[399px]'>
                     <div>
                         <img src={more.src} alt="more" />
@@ -33,7 +34,9 @@ export const RightLink = () => {
                    </div>
 
                 </div>
-
+               
+                <ButtonSave/>
+               
 
 
             </div>

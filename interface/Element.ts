@@ -10,3 +10,12 @@ export interface ImgCartProps {
     text:string,
     width?:string
 }
+
+export interface CartImgUserProps{
+    img:string,
+    title:string,
+    description:string,
+    avatar:string,
+    name:string,
+    date:string
+}
