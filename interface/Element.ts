@@ -4,7 +4,7 @@ export interface ChildrenProps {
     children: React.ReactNode
 }
 
-export interface ImgCartProps {
+export interface ImgCardProps {
     img:string,
     title:string,
     text:string,
@@ -27,4 +27,9 @@ export interface IconTxtProps{
 export interface TitleDetailProps{
     title:string,
     detail:string
+}
+
+export interface ButtonProps extends ChildrenProps{
+    bg?:string,
+    txt?:string
 }

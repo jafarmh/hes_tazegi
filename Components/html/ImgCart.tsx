@@ -1,7 +1,7 @@
-import { ImgCartProps } from '@/interface/Element'
+import { ImgCardProps } from '@/interface/Element'
 import React from 'react'
 
-function ImgCart({img,title,text,width="w-[360px]"}:ImgCartProps) {
+function ImgCart({img,title,text,width="w-[360px]"}:ImgCardProps) {
     return (
         <div style={{ backgroundImage: `url(${img})` }}
             className={`h-[452px] ${width} rounded-[--radius] flex flex-col justify-end  `}>
