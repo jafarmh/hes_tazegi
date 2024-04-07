@@ -12,6 +12,7 @@
   --red:#F81539;
   --redButton:#F81539BF;
   --grayTxt:#3E3232BF;
+  --shadow:"0px_0px_32px_0px_#00000012";
 }
 
 @media (prefers-color-scheme: dark) {
