@@ -33,3 +33,9 @@ export interface ButtonProps extends ChildrenProps{
     bg?:string,
     txt?:string
 }
+
+export interface CategoryHeaderProps{
+    img:string,
+    title:string,
+    list:string[]
+}
