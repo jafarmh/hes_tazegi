@@ -1,0 +1,8 @@
+site/vistatest/bamdad/twa/LauncherActivity.java
+ site.vistatest.bamdad.twa.LauncherActivity
+site/vistatest/bamdad/twa/Application.java
+ site.vistatest.bamdad.twa.Application
+site/vistatest/bamdad/twa/BuildConfig.java
+ site.vistatest.bamdad.twa.BuildConfig
+site/vistatest/bamdad/twa/DelegationService.java
+ site.vistatest.bamdad.twa.DelegationService

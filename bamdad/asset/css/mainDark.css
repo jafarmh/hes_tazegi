@@ -1,0 +1,25 @@
+:root {
+
+    --orang:#FE590A;
+    --black:#FAFAFA;
+    --gray:#666666;
+    --lightGrey:#b8b8b8;
+    --blueColor:#55D4EB;
+    --white:#000000;
+    --lineGray:#787777;
+    --lightOrang:#FEE3D5;
+    --lightBlue:#BCE4EB;
+    --blue:#063C8F;
+    --lightGray:#b7b7b7;
+    --grayDiv:#404040;
+    --grayHashtag:#131313;
+    /* --grayHashtag:#F5F5F5; */
+    --grayDisable:#8C8C8C;
+    --grayDrawer:#2a2a2a;
+    --grayAgree:#2a2a2a;
+}
+
+
+body{
+    background-color:#000000 ;
+}

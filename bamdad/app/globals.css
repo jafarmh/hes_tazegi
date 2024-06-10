@@ -1,0 +1,88 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "IRANSans(MonoSpacedNum) Light";
+  src: url("../asset/@font-face/1c0f48edc1d14b481477029abfcefe75.eot");
+  /* IE9*/
+  src: url("../asset/@font-face/1c0f48edc1d14b481477029abfcefe75.eot?#iefix") format("embedded-opentype"),
+   url("../asset/@font-face/1c0f48edc1d14b481477029abfcefe75.woff2") format("woff2"),
+    url("../asset/@font-face/1c0f48edc1d14b481477029abfcefe75.woff") format("woff"),
+     url("../asset/@font-face/1c0f48edc1d14b481477029abfcefe75.ttf") format("truetype"),
+      url("../asset/@font-face/1c0f48edc1d14b481477029abfcefe75.svg#IRANSans(MonoSpacedNum) Light") format("svg");
+  /* iOS 4.1- */
+}
+
+* {
+  font-family: 'IRANSans(MonoSpacedNum) Light', 'BYekan' !important;
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  /* color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+}
+
+.customFileInput::-webkit-file-upload-button {
+  visibility: hidden;
+
+}
+
+.customFileInput {
+  color: transparent;
+  z-index: 0 ;
+  cursor: pointer;
+}
+input[type="file"]{
+  z-index: 999;
+  line-height: 0;
+  font-size: 50px;
+  position: absolute;
+  opacity: 0;
+  filter: alpha(opacity = 0);-ms-filter: "alpha(opacity=0)";
+  cursor: pointer;
+  _cursor: hand;
+  margin: 0;
+  padding:0;
+  left:0;
+  }
+
+
+  .css-9emuhu-MuiPaper-root-MuiDrawer-paper{
+    background-color: transparent !important;
+  }
+
+  .css-j204z7-MuiFormControlLabel-root{
+    margin-inline: inherit !important;
+  }
+  .css-1yjjitx-MuiSwitch-track{
+    background-color: #c6c6c6;
+  }
+
+  .swiper-pagination-bullet{
+    background-color: gainsboro !important ;
+  }

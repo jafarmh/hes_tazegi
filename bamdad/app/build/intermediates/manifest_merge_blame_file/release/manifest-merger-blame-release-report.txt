@@ -1,0 +1,382 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3    Copyright 2019 Google Inc. All Rights Reserved.
+4
+5     Licensed under the Apache License, Version 2.0 (the "License");
+6     you may not use this file except in compliance with the License.
+7     You may obtain a copy of the License at
+8
+9         http://www.apache.org/licenses/LICENSE-2.0
+10
+11     Unless required by applicable law or agreed to in writing, software
+12     distributed under the License is distributed on an "AS IS" BASIS,
+13     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14     See the License for the specific language governing permissions and
+15     limitations under the License.
+16-->
+17<!--
+18 The "package" attribute is rewritten by the Gradle build with the value of applicationId.
+19     It is still required here, as it is used to derive paths, for instance when referring
+20     to an Activity by ".MyActivity" instead of the full name. If more Activities are added to the
+21     application, the package attribute will need to reflect the correct path in order to use
+22     the abbreviated format.
+23-->
+24<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+25    package="site.vistatest.bamdad.twa"
+26    android:versionCode="1"
+27    android:versionName="1" >
+28
+29    <uses-sdk
+30        android:minSdkVersion="19"
+30-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml
+31        android:targetSdkVersion="33" />
+31-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml
+32
+33    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+33-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:26:9-80
+33-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:26:26-78
+34    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+34-->[com.google.androidbrowserhelper:locationdelegation:1.1.1] /root/.gradle/caches/transforms-2/files-2.1/e9d115f76e557f4a6a4d1d5ae527d644/locationdelegation-1.1.1/AndroidManifest.xml:11:5-79
+34-->[com.google.androidbrowserhelper:locationdelegation:1.1.1] /root/.gradle/caches/transforms-2/files-2.1/e9d115f76e557f4a6a4d1d5ae527d644/locationdelegation-1.1.1/AndroidManifest.xml:11:22-76
+35    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+35-->[com.google.androidbrowserhelper:locationdelegation:1.1.1] /root/.gradle/caches/transforms-2/files-2.1/e9d115f76e557f4a6a4d1d5ae527d644/locationdelegation-1.1.1/AndroidManifest.xml:12:5-81
+35-->[com.google.androidbrowserhelper:locationdelegation:1.1.1] /root/.gradle/caches/transforms-2/files-2.1/e9d115f76e557f4a6a4d1d5ae527d644/locationdelegation-1.1.1/AndroidManifest.xml:12:22-78
+36
+37    <queries>
+37-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /root/.gradle/caches/transforms-2/files-2.1/816850808f9de9e670a4838cd1f96218/androidbrowserhelper-2.5.0/AndroidManifest.xml:26:5-34:15
+38        <intent>
+38-->[com.google.androidbrowserhelper:androidbrowserhelper:2.5.0] /root/.gradle/caches/transforms-2/files-2.1/816850808f9de9e670a4838cd1f96218/androidbrowserhelper-2.5.0/AndroidManifest.xml:27:9-33:18
+39            <action android:name="android.intent.action.VIEW" />
+39-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:137:17-68
+39-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:137:25-66
+40
+41            <category android:name="android.intent.category.BROWSABLE" />
+41-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:139:17-77
+41-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:139:27-75
+42
+43            <data android:scheme="https" />
+43-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:140:17-141:54
+43-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:140:23-45
+44        </intent>
+45        <intent>
+45-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:17:9-19:18
+46            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+46-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:18:13-91
+46-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:18:21-88
+47        </intent>
+48    </queries>
+49
+50    <uses-permission android:name="com.android.vending.BILLING" />
+50-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:10:5-67
+50-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:10:22-64
+51
+52    <application
+52-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:35:5-212:19
+53        android:name="site.vistatest.bamdad.twa.Application"
+53-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:36:9-35
+54        android:allowBackup="true"
+54-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:37:9-35
+55        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+55-->[androidx.core:core:1.2.0] /root/.gradle/caches/transforms-2/files-2.1/d97de8d4da2daf41cae9a34bc8c4933b/core-1.2.0/AndroidManifest.xml:24:18-86
+56        android:icon="@mipmap/ic_launcher"
+56-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:38:9-43
+57        android:label="@string/appName"
+57-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:39:9-40
+58        android:manageSpaceActivity="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity"
+58-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:41:9-105
+59        android:supportsRtl="true"
+59-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:43:9-35
+60        android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+60-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:44:9-68
+61        <meta-data
+61-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:46:9-48:58
+62            android:name="asset_statements"
+62-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:47:13-44
+63            android:resource="@string/assetStatements" />
+63-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:48:13-55
+64        <meta-data
+64-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:51:13-53:58
+65            android:name="web_manifest_url"
+65-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:52:17-48
+66            android:value="@string/webManifestUrl" />
+66-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:53:17-55
+67        <meta-data
+67-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:56:9-58:52
+68            android:name="twa_generator"
+68-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:57:13-41
+69            android:value="@string/generatorApp" />
+69-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:58:13-49
+70
+71        <activity android:name="com.google.androidbrowserhelper.trusted.ManageDataLauncherActivity" >
+71-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:65:13-69:24
+71-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:65:23-104
+72            <meta-data
+72-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:66:13-68:53
+73                android:name="android.support.customtabs.trusted.MANAGE_SPACE_URL"
+73-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:67:17-83
+74                android:value="@string/launchUrl" />
+74-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:68:17-50
+75        </activity>
+76        <activity
+76-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:72:9-145:20
+77            android:name="site.vistatest.bamdad.twa.LauncherActivity"
+77-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:72:19-50
+78            android:alwaysRetainTaskState="true"
+78-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:73:13-49
+79            android:exported="true"
+79-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:75:13-36
+80            android:label="@string/launcherName" >
+80-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:74:13-49
+81            <meta-data
+81-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:76:13-77:53
+82                android:name="android.support.customtabs.trusted.DEFAULT_URL"
+82-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:76:24-85
+83                android:value="@string/launchUrl" />
+83-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:77:17-50
+84            <meta-data
+84-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:79:13-81:58
+85                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
+85-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:80:17-83
+86                android:resource="@color/colorPrimary" />
+86-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:81:17-55
+87            <meta-data
+87-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:83:13-85:62
+88                android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR_DARK"
+88-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:84:17-88
+89                android:resource="@color/colorPrimaryDark" />
+89-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:85:17-59
+90            <meta-data
+90-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:87:13-89:61
+91                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
+91-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:88:17-87
+92                android:resource="@color/navigationColor" />
+92-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:89:17-58
+93            <meta-data
+93-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:91:13-93:65
+94                android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR_DARK"
+94-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:92:17-92
+95                android:resource="@color/navigationColorDark" />
+95-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:93:17-62
+96            <meta-data
+96-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:95:13-97:68
+97                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR"
+97-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:96:17-84
+98                android:resource="@color/navigationDividerColor" />
+98-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:97:17-65
+99            <meta-data
+99-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:99:13-101:72
+100                android:name="androix.browser.trusted.NAVIGATION_BAR_DIVIDER_COLOR_DARK"
+100-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:100:17-89
+101                android:resource="@color/navigationDividerColorDark" />
+101-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:101:17-69
+102            <meta-data
+102-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:103:13-104:54
+103                android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
+103-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:103:24-95
+104                android:resource="@drawable/splash" />
+104-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:104:17-52
+105            <meta-data
+105-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:106:13-107:60
+106                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
+106-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:106:24-104
+107                android:resource="@color/backgroundColor" />
+107-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:107:17-58
+108            <meta-data
+108-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:109:13-110:71
+109                android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
+109-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:109:24-105
+110                android:value="@integer/splashScreenFadeOutDuration" />
+110-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:110:17-69
+111            <meta-data
+111-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:112:13-113:60
+112                android:name="android.support.customtabs.trusted.FILE_PROVIDER_AUTHORITY"
+112-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:112:24-97
+113                android:value="@string/providerAuthority" />
+113-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:113:17-58
+114            <meta-data
+114-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:115:13-97
+115                android:name="android.app.shortcuts"
+115-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:115:24-60
+116                android:resource="@xml/shortcuts" />
+116-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:115:61-94
+117            <meta-data
+117-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:117:13-118:56
+118                android:name="android.support.customtabs.trusted.FALLBACK_STRATEGY"
+118-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:117:24-91
+119                android:value="@string/fallbackType" />
+119-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:118:17-53
+120            <meta-data
+120-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:124:13-125:54
+121                android:name="android.support.customtabs.trusted.SCREEN_ORIENTATION"
+121-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:124:24-92
+122                android:value="@string/orientation" />
+122-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:125:17-52
+123
+124            <intent-filter>
+124-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:131:13-134:29
+125                <action android:name="android.intent.action.MAIN" />
+125-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:132:17-69
+125-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:132:25-66
+126
+127                <category android:name="android.intent.category.LAUNCHER" />
+127-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:133:17-77
+127-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:133:27-74
+128            </intent-filter>
+129            <intent-filter android:autoVerify="true" >
+129-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:136:13-142:29
+129-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:136:28-53
+130                <action android:name="android.intent.action.VIEW" />
+130-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:137:17-68
+130-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:137:25-66
+131
+132                <category android:name="android.intent.category.DEFAULT" />
+132-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:138:17-76
+132-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:138:27-73
+133                <category android:name="android.intent.category.BROWSABLE" />
+133-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:139:17-77
+133-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:139:27-75
+134
+135                <data
+135-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:140:17-141:54
+136                    android:host="@string/hostName"
+136-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:141:21-52
+137                    android:scheme="https" />
+137-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:140:23-45
+138            </intent-filter>
+139        </activity>
+140        <activity android:name="com.google.androidbrowserhelper.trusted.FocusActivity" />
+140-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:147:9-90
+140-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:147:19-87
+141        <activity
+141-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:149:9-150:62
+142            android:name="com.google.androidbrowserhelper.trusted.WebViewFallbackActivity"
+142-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:149:19-97
+143            android:configChanges="orientation|screenSize" />
+143-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:150:13-59
+144
+145        <provider
+145-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:152:9-160:20
+146            android:name="androidx.core.content.FileProvider"
+146-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:153:13-62
+147            android:authorities="@string/providerAuthority"
+147-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:154:13-60
+148            android:exported="false"
+148-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:156:13-37
+149            android:grantUriPermissions="true" >
+149-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:155:13-47
+150            <meta-data
+150-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:157:13-159:53
+151                android:name="android.support.FILE_PROVIDER_PATHS"
+151-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:158:17-67
+152                android:resource="@xml/filepaths" />
+152-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:159:17-50
+153        </provider>
+154
+155        <service
+155-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:162:9-177:19
+156            android:name="site.vistatest.bamdad.twa.DelegationService"
+156-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:163:13-46
+157            android:enabled="@bool/enableNotification"
+157-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:164:13-55
+158            android:exported="@bool/enableNotification" >
+158-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:165:13-56
+159            <meta-data
+159-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:168:17-170:73
+160                android:name="android.support.customtabs.trusted.SMALL_ICON"
+160-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:169:21-81
+161                android:resource="@drawable/ic_notification_icon" />
+161-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:170:21-70
+162
+163            <intent-filter>
+163-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:173:13-176:29
+164                <action android:name="android.support.customtabs.trusted.TRUSTED_WEB_ACTIVITY_SERVICE" />
+164-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:174:17-105
+164-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:174:25-103
+165
+166                <category android:name="android.intent.category.DEFAULT" />
+166-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:138:17-76
+166-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:138:27-73
+167            </intent-filter>
+168        </service>
+169
+170        <activity android:name="com.google.androidbrowserhelper.trusted.NotificationPermissionRequestActivity" />
+170-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:180:13-118
+170-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:180:23-115
+171        <activity android:name="com.google.androidbrowserhelper.locationdelegation.PermissionRequestActivity" />
+171-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:184:13-185:89
+171-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:184:23-123
+172        <activity
+172-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:188:9-201:20
+173            android:name="com.google.androidbrowserhelper.playbilling.provider.PaymentActivity"
+173-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:189:13-96
+174            android:configChanges="keyboardHidden|keyboard|orientation|screenLayout|screenSize"
+174-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:191:13-96
+175            android:exported="true"
+175-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:192:13-36
+176            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+176-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:190:13-72
+177            <intent-filter>
+177-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:194:13-196:29
+178                <action android:name="org.chromium.intent.action.PAY" />
+178-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:195:17-73
+178-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:195:25-70
+179            </intent-filter>
+180
+181            <meta-data
+181-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:198:13-200:67
+182                android:name="org.chromium.default_payment_method_name"
+182-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:199:17-72
+183                android:value="https://play.google.com/billing" />
+183-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:200:17-64
+184        </activity>
+185
+186        <!-- This service checks who calls it at runtime. -->
+187        <service
+187-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:204:9-210:19
+188            android:name="com.google.androidbrowserhelper.playbilling.provider.PaymentService"
+188-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:205:13-95
+189            android:exported="true" >
+189-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:206:13-36
+190            <intent-filter>
+190-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:207:13-209:29
+191                <action android:name="org.chromium.intent.action.IS_READY_TO_PAY" />
+191-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:208:17-85
+191-->/Vista/bamdad/web/app/src/main/AndroidManifest.xml:208:25-82
+192            </intent-filter>
+193        </service>
+194
+195        <meta-data
+195-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:23:9-25:37
+196            android:name="com.google.android.play.billingclient.version"
+196-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:24:13-73
+197            android:value="5.2.1" />
+197-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:25:13-34
+198
+199        <activity
+199-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:27:9-31:75
+200            android:name="com.android.billingclient.api.ProxyBillingActivity"
+200-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:28:13-78
+201            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+201-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:29:13-96
+202            android:exported="false"
+202-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:30:13-37
+203            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+203-->[com.android.billingclient:billing:5.2.1] /root/.gradle/caches/transforms-2/files-2.1/b38f969dab5c30614ce3735f3d491e2a/billing-5.2.1/AndroidManifest.xml:31:13-72
+204        <activity
+204-->[com.google.android.gms:play-services-base:18.1.0] /root/.gradle/caches/transforms-2/files-2.1/501a68e49df848b4e0aecf464c7f9d57/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+205            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+205-->[com.google.android.gms:play-services-base:18.1.0] /root/.gradle/caches/transforms-2/files-2.1/501a68e49df848b4e0aecf464c7f9d57/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+206            android:exported="false"
+206-->[com.google.android.gms:play-services-base:18.1.0] /root/.gradle/caches/transforms-2/files-2.1/501a68e49df848b4e0aecf464c7f9d57/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+207            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+207-->[com.google.android.gms:play-services-base:18.1.0] /root/.gradle/caches/transforms-2/files-2.1/501a68e49df848b4e0aecf464c7f9d57/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+208
+209        <meta-data
+209-->[com.google.android.gms:play-services-basement:18.1.0] /root/.gradle/caches/transforms-2/files-2.1/105cd2d91c9d2b79e2e91d2652fd8232/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+210            android:name="com.google.android.gms.version"
+210-->[com.google.android.gms:play-services-basement:18.1.0] /root/.gradle/caches/transforms-2/files-2.1/105cd2d91c9d2b79e2e91d2652fd8232/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+211            android:value="@integer/google_play_services_version" />
+211-->[com.google.android.gms:play-services-basement:18.1.0] /root/.gradle/caches/transforms-2/files-2.1/105cd2d91c9d2b79e2e91d2652fd8232/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+212    </application>
+213
+214</manifest>

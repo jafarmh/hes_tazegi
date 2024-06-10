@@ -1,0 +1,40 @@
+
+
+export const GetCategoryApi="admin/category";
+export const GetCountryApi="admin/country";
+export const ProfileApi="users/profile";
+export const BrochureApi="users/brochure";
+export const BrochureAllApi="users/brochure/all";
+export const BrochureGetMyListApi="users/brochure";
+export const ProductSApi="users/product";
+export const ProductSAllApi="users/product/all";
+export const ProductGetMyListApi="users/product";
+export const ServiceGetMyListApi="users/service";
+export const exportSolutionApi="admin/exportSolution";
+export const ExhibitionApi="admin/exhibition";
+export const UsersListApi="users/list";
+export const UsersEditProfileApi="users/profile";
+export const UsersProductServiceAddFileApi="users/product-service-add-attach-file";
+export const UsersProductServiceRemoveFileApi="users/product-service-remove-attach-file";
+export const UsersBrochureAddFileApi="users/brochure-add-attach-file";
+export const UsersBrochureRemoveFileApi="users/brochure-remove-attach-file";
+export const UsersApi="users/show";
+export const UsersServiceListApi="users/service-list";
+export const UsersProductListApi="users/product-list";
+export const UsersBrochureListApi="users/brochure-list";
+export const ExpertDetailApi="admin/expert";
+export const AboutApi="admin/about";
+export const TermApi="admin/term";
+export const FaqApi="admin/faq";
+export const PrivaciesApi="admin/privacies";
+export const AddCommentSolutionApi="users/export-solution-comment";
+export const AddLikeSolutionApi="users/export-solution-like";
+export const UsersContactUsApi="users/contact-us";
+export const UsersContactUsListApi="users/contact-us-myList";
+export const UsersReportApi="users/report";
+export const RankApi="admin/rank";
+export const RankSetApi='users/setRank'
+export const SiteInfoSetApi='admin/site-info'
+export const RemoveMyAccountApi="users/removeMyAccount";
+export const BamdadServiceApi="admin/serviceBamdad";
+

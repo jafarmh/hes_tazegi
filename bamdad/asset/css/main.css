@@ -1,0 +1,25 @@
+:root {
+
+    --orang:#FE590A;
+    --black:#000000;
+    --gray:#666666;
+    --lightGrey:#F1F1F1;
+    --blueColor:#55D4EB;
+    --white:#FAFAFA;
+    --lineGray:#D9D9D9;
+    --lightOrang:#FEE3D5;
+    --lightBlue:#BCE4EB;
+    --blue:#063C8F;
+    --lightGray:#f4f4f4;
+    /* --lightGray:#FAFAFA; */
+    --grayDiv:#404040;
+    --grayHashtag:#F5F5F5;
+    --grayDisable:#8C8C8C;
+    --grayDisable:#8C8C8C;
+    --grayDrawer:#FAFAFA;
+    --grayAgree:#FAFAFA;
+}
+
+body{
+    background-color:#FAFAFA ;
+}

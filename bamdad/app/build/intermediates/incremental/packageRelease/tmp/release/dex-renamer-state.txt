@@ -1,0 +1,4 @@
+#Sat Nov 25 16:39:18 IRST 2023
+base.0=/Vista/bamdad/web/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

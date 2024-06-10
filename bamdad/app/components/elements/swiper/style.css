@@ -1,0 +1,15 @@
+.swiper-pagination-bullet-active{
+    background:#FE590A;
+}
+
+.swiper-button-next,.swiper-button-prev{
+    color:#FE590A !important;
+}
+
+.swiper-button-prev::after {
+    content:url("../../../../asset/img/arrowRight.png") !important;
+  }
+  
+  .swiper-button-next::after {
+    content:url("../../../../asset/img/arrowLeft.png") !important;
+  }
